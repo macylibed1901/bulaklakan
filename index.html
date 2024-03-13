@@ -11,6 +11,7 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -21,6 +22,7 @@
     <title>Bulaklakan.ph</title>
 </head>
 <body>
+    
     
     <!-- Navbar -->
     <div class="navbar-fixed ">
@@ -34,12 +36,31 @@
                 </a>
                 <a href="" class="right sidenav-trigger" data-target="mobile-demo">
                     <i class="fa-solid fa-bars"></i>
-                  </a>
-                  <ul id="nav-mobile" class="left " style="margin-left: 100px;">     </a>
-                 <a href="#contacts" >
+                  <!-- </a>
+                  <ul id="nav-mobile" class="left " style="margin-left: 100px;">     </a> -->
+                 <!-- <a href="#contacts" >
                     <i class="fa-solid fa-store"></i>
-                 </a>   
-                 <ul id="nav-mobile" class="right hide-on-med-and-down">
+                 </a>    -->
+
+                     <!--Contacts dropdown trigger  -->
+                    <div class="right hide-on-med-and-down">
+                        <li><a href="#!" class="dropdown-trigger" data-target="dropdown2">
+                            <i class="fa-solid fa-store"></i><i class="material-icons right">arrow_drop_down</i>
+                        </a></li>
+                    </div>
+
+                    <!-- Dropdown Trigger -->
+                    <div class="right hide-on-med-and-down">
+                        <li>
+                            <a class="dropdown-trigger" href="#!" data-target="dropdown1">FLOWERS
+                              <i class="material-icons right">arrow_drop_down</i>
+                            </a>
+                          </li>
+
+                    </div>
+                    
+
+                 <!-- <ul class="right hide-on-med-and-down">
                     <li>
                         <a href="#Flowers">Flowers</a>
                     </li>
@@ -65,7 +86,7 @@
                     <li>
                         <a href="#BS">Best Sellers</a>
                     </li>
-                 </ul>
+                 </ul> -->
             </div>
         </nav>              
     </div>
@@ -83,6 +104,28 @@
     <li><a href="#contacts">CONTACT US HERE!</a></li>
 
 </ul>
+
+ <!-- DROPDOWN FLOWERS -->
+ <ul id="dropdown1" class="dropdown-content">
+    <li><a href="#Tulips">Tulips</a></li>
+    <li class="divider"></li>
+    <li><a href="#Rose">Rose</a></li>
+    <li class="divider"></li>
+    <li><a href="#Sunflower">Sunflower</a></li>
+    <li class="divider"></li>
+    <li><a href="#Daisy">Daisy</a></li>
+    <li class="divider"></li>
+    <li><a href="#Satin">Satin</a></li>
+    </ul>
+
+    <!-- Dropdown contacts -->
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="https://www.facebook.com/meeeyyyseee/">Macy Libed</a></li>
+        <li><a href="https://www.facebook.com/joemer00">Joemer Reyes</a></li>
+        <li><a href="tel:09918565436">09918565436</a></li>
+        <li><a href="tel:09159464561">09159464561</a></li>
+    </ul>
+
 
     <!-- Parallax Intro -->
     <div class="parallax-container">
@@ -103,15 +146,13 @@
         </div>
     </div>
 <br><br><br>
+
 <!-- All Flowers -->
     <div id="Flowers">        
     
     <div class="flowers">
-        <div class="container">
-            <h3 class="red-text text-lighten-3">Flowers
+            <h3 class="red-text text-lighten-3" style="margin-left: 20px;">Flowers
             </h3>         
-            
-        </div>
     </div>
 </div>
 
@@ -180,6 +221,9 @@
             </a>
         </div>
     </div>
+<div class="divider"></div>
+<div class="divider"></div>
+<div class="divider"></div>
 
    
 <br><br>
@@ -327,11 +371,11 @@
             <a href="" class="carousel-item">
                 <img src="Flowers/rose/r48.JPEG" alt="">
             </a>
-            <a href="" class="carousel-item">
-                <img src="Flowers/rose/r49.MP4" alt="">
-            </a>       
+        
     </div>
-
+    <div class="divider"></div>
+    <div class="divider"></div>
+    <div class="divider"></div>
     <!-- Sunflower -->
     <br><br>
     <div id="Sunflower">        
@@ -522,9 +566,11 @@
         </a>
         <a href="" class="carousel-item">
             <img src="Flowers/sunflower/sun61.JPEG" alt="">
-        </a>
-       
+        </a>       
     </div>
+    <div class="divider"></div>
+<div class="divider"></div>
+<div class="divider"></div>
 <br><br>
     <!-- Daisy -->
     <div id="Daisy"></div>
@@ -563,6 +609,9 @@
             <img src="Flowers/daisy/d10.JPEG" alt="">
         </a>
     </div>
+    <div class="divider"></div>
+<div class="divider"></div>
+<div class="divider"></div>
   <br><br>
     <!-- Satin -->
     <div id="Satin"></div>
@@ -688,11 +737,14 @@
             <img src="Flowers/satin/s39.JPEG" alt="">
         </a>
     </div>
+    <div class="divider"></div>
+<div class="divider"></div>
+<div class="divider"></div>
 <br><br>
 
 <!-- With Customers -->
     <div id="Customers"></div>
-    <div class="customers">
+    <div class="center customers">
         <div class="container">
             <img src="logo/w lovers.png" alt="" width="200px">
         </div>
@@ -849,9 +901,12 @@
             <img src="Flowers/with customers/wc50.JPEG" alt="">
         </a>
     </div>
+    <div class="divider"></div>
+<div class="divider"></div>
+<div class="divider"></div>
 <br><br><br>
 
-<div class="divider"></div>
+
 <!-- Best Sellers -->
 <div id="BS"></div>
 <h4 style="margin-left: 10px;">Best Sellers</h4>
@@ -961,6 +1016,12 @@
         </div>
         
     </div>     
+<!-- "Arrow Up" button -->
+
+<a id="scrollToTopBtn" class="right btn-floating btn-large red hide-on-small-only">
+
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
 
 <br><br><br><br>
 <!-- footer -->
@@ -968,15 +1029,18 @@
 <footer class="page-footer">
     <div class="container">
         <div class="row">
-            <div class="col l6 s12">
+            <div class="col l6 s6">
                 <h5 class="white-text">BULAKLAKAN</h5>
-                <p class="grey-text text-lighten-4">Share your story</p>
-                <p class="grey-text text-lighten-4">Contact us!</p>
+                <p class="grey-text text-lighten-4">Share your story. Contact us!</p>
                
-                <p>Cellphone Number: 09918565436 // 09159464561</p>
+                <p>Cellphone Number:</p>
+               <a href="tel:09159464561">09159464561</a>
+               <br>
+               <a href="tel:09918565436">09918565436</a>
+                
                 <br>
             </div>
-            <div class="col l4 offset-l2 s12">
+            <div class="col l4 offset-l2 s6">
                 <h5 class="white-text">Social Media</h5>
                 <ul>
                     <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/meeeyyyseee/" target="_blank">
@@ -1027,12 +1091,25 @@ $('.carousel.second-carousel').carousel({
 // parallax init
 $(document).ready(function(){
  $('.parallax').parallax();
+//  Dropdown init
+ $(".dropdown-trigger").dropdown({ hover: true });
 });
-
+// Materialbox init
 document.addEventListener('DOMContentLoaded', function() {
             var elems = document.querySelectorAll('.materialboxed');
             var instances = M.Materialbox.init(elems);
         });
+
+        //upbutton
+$(document).ready(function () {
+        // When the button is clicked
+        $('#scrollToTopBtn').click(function () {
+            // Scroll to the top of the page with a smooth animation
+            $('html, body').animate({ scrollTop: 0 }, 'slow');
+        });
+    });
+
+
 </script>
 
 </body>
